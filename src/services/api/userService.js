@@ -34,3 +34,16 @@ export const updateUser = async (id, userData) => {
   usersData[userIndex] = { ...usersData[userIndex], ...userData }
   return usersData[userIndex]
 }
+
+export const markStoryAsViewed = async (userId, storyId) => {
+  await delay(100)
+  // This would typically update user's viewed stories list
+  // For demo purposes, we'll just return success
+  return { success: true, userId, storyId }
+}
+
+export const getUsersWithStories = async () => {
+  await delay(300)
+  // Return users who have posted stories recently
+  return usersData.filter(user => Math.random() > 0.3).slice(0, 10)
+}

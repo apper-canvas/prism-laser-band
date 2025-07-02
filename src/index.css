@@ -98,6 +98,54 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* Story viewer overlay */
+.story-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Story progress bar */
+.story-progress {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.story-progress-fill {
+  background: linear-gradient(90deg, #E1306C, #833AB4);
+  height: 100%;
+  transition: width 0.1s linear;
+}
+
+/* Story navigation zones */
+.story-nav-left,
+.story-nav-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.story-nav-left {
+  left: 0;
+}
+
+.story-nav-right {
+  right: 0;
+}
+
+/* Touch feedback */
+.story-nav-left:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.story-nav-right:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /* Heart animation */
 .heart-burst {
   animation: heartBurst 0.8s ease-out;
@@ -113,4 +161,32 @@ body {
   );
   background-size: 200% 100%;
   animation: shimmer 2s ease-in-out infinite alternate;
+}
+
+/* Swipe gesture indicators */
+.swipe-indicator {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.swipe-indicator.visible {
+  opacity: 1;
+}
+
+/* Story content container */
+.story-content {
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+/* Mobile-specific story adjustments */
+@media (max-width: 768px) {
+  .story-content {
+    max-height: 90vh;
+  }
+  
+  .story-nav-left,
+  .story-nav-right {
+    width: 40%;
+  }
 }
