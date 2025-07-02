@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "username": "john_doe",
+    "displayName": "John Doe",
+    "avatar": "https://picsum.photos/100/100?random=1",
+    "bio": "Photographer & adventurer 📸 Capturing life's beautiful moments ✨",
+    "followersCount": 1250,
+    "followingCount": 340,
+    "postsCount": 89
+  },
+  {
+    "Id": 2,
+    "username": "sarah_creative",
+    "displayName": "Sarah Johnson",
+    "avatar": "https://picsum.photos/100/100?random=2",
+    "bio": "Digital artist 🎨 Creating magic with pixels and dreams",
+    "followersCount": 892,
+    "followingCount": 156,
+    "postsCount": 67
+  },
+  {
+    "Id": 3,
+    "username": "travel_mike",
+    "displayName": "Mike Anderson",
+    "avatar": "https://picsum.photos/100/100?random=3",
+    "bio": "World traveler 🌍 Sharing stories from 47 countries and counting",
+    "followersCount": 2100,
+    "followingCount": 89,
+    "postsCount": 156
+  },
+  {
+    "Id": 4,
+    "username": "foodie_emma",
+    "displayName": "Emma Wilson",
+    "avatar": "https://picsum.photos/100/100?random=4",
+    "bio": "Food blogger 🍝 Discovering flavors around the globe",
+    "followersCount": 1890,
+    "followingCount": 234,
+    "postsCount": 124
+  },
+  {
+    "Id": 5,
+    "username": "fitness_alex",
+    "displayName": "Alex Rodriguez",
+    "avatar": "https://picsum.photos/100/100?random=5",
+    "bio": "Fitness coach 💪 Helping you become the best version of yourself",
+    "followersCount": 3450,
+    "followingCount": 145,
+    "postsCount": 201
+  },
+  {
+    "Id": 6,
+    "username": "nature_lover",
+    "displayName": "Lisa Chen",
+    "avatar": "https://picsum.photos/100/100?random=6",
+    "bio": "Nature enthusiast 🌿 Finding peace in the wilderness",
+    "followersCount": 1567,
+    "followingCount": 298,
+    "postsCount": 143
+  },
+  {
+    "Id": 7,
+    "username": "music_soul",
+    "displayName": "David Martinez",
+    "avatar": "https://picsum.photos/100/100?random=7",
+    "bio": "Musician & songwriter 🎵 Life is a song, sing it loud",
+    "followersCount": 987,
+    "followingCount": 76,
+    "postsCount": 78
+  },
+  {
+    "Id": 8,
+    "username": "fashion_anna",
+    "displayName": "Anna Thompson",
+    "avatar": "https://picsum.photos/100/100?random=8",
+    "bio": "Fashion stylist 👗 Style is a way to say who you are",
+    "followersCount": 2890,
+    "followingCount": 412,
+    "postsCount": 167
+  },
+  {
+    "Id": 9,
+    "username": "tech_guru",
+    "displayName": "James Park",
+    "avatar": "https://picsum.photos/100/100?random=9",
+    "bio": "Tech innovator 💻 Building the future, one line of code at a time",
+    "followersCount": 1234,
+    "followingCount": 189,
+    "postsCount": 92
+  },
+  {
+    "Id": 10,
+    "username": "art_spirit",
+    "displayName": "Maria Garcia",
+    "avatar": "https://picsum.photos/100/100?random=10",
+    "bio": "Visual artist 🖌️ Painting the world with colors of imagination",
+    "followersCount": 1678,
+    "followingCount": 203,
+    "postsCount": 134
+  }
+]

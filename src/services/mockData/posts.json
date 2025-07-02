@@ -1,0 +1,189 @@
+[
+  {
+    "Id": 1,
+    "userId": 1,
+    "imageUrl": "https://picsum.photos/400/400?random=101",
+    "caption": "Golden hour magic ✨ Sometimes the best moments happen when you least expect them. This sunset reminded me why I fell in love with photography in the first place. #photography #sunset #goldenhour",
+    "likes": 342,
+    "comments": [
+      {
+        "Id": 1,
+        "postId": 1,
+        "userId": 2,
+        "text": "Absolutely stunning! The lighting is perfect 😍",
+        "timestamp": "2024-01-15T10:30:00Z",
+        "parentId": null
+      },
+      {
+        "Id": 2,
+        "postId": 1,
+        "userId": 3,
+        "text": "This is what dreams are made of!",
+        "timestamp": "2024-01-15T11:45:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-15T08:20:00Z",
+    "filter": "warm"
+  },
+  {
+    "Id": 2,
+    "userId": 2,
+    "imageUrl": "https://picsum.photos/400/400?random=102",
+    "caption": "New digital art piece completed! 🎨 Spent countless hours on this one but so worth it. Art is not what you see, but what you make others see. What do you see in this piece? #digitalart #creativity",
+    "likes": 289,
+    "comments": [],
+    "timestamp": "2024-01-14T16:45:00Z",
+    "filter": "dramatic"
+  },
+  {
+    "Id": 3,
+    "userId": 3,
+    "imageUrl": "https://picsum.photos/400/400?random=103",
+    "caption": "Lost in the streets of Prague 🏰 Every corner tells a story, every cobblestone holds history. Travel isn't just about the destination, it's about the stories you collect along the way. #travel #prague #wanderlust",
+    "likes": 567,
+    "comments": [
+      {
+        "Id": 3,
+        "postId": 3,
+        "userId": 1,
+        "text": "Prague is absolutely magical! Great shot 📸",
+        "timestamp": "2024-01-14T18:20:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-14T14:20:00Z",
+    "filter": "vintage"
+  },
+  {
+    "Id": 4,
+    "userId": 4,
+    "imageUrl": "https://picsum.photos/400/400?random=104",
+    "caption": "Homemade pasta night! 🍝 There's something therapeutic about making pasta from scratch. The smell, the texture, the anticipation... Pure happiness on a plate. Recipe in my stories! #food #pasta #homemade",
+    "likes": 423,
+    "comments": [
+      {
+        "Id": 4,
+        "postId": 4,
+        "userId": 5,
+        "text": "This looks incredible! Can't wait to try the recipe 🤤",
+        "timestamp": "2024-01-13T20:15:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-13T19:30:00Z",
+    "filter": "bright"
+  },
+  {
+    "Id": 5,
+    "userId": 5,
+    "imageUrl": "https://picsum.photos/400/400?random=105",
+    "caption": "Morning workout complete! 💪 Remember, the only bad workout is the one that didn't happen. Your body can do it. It's your mind that you have to convince. Let's crush this day! #fitness #motivation #morningworkout",
+    "likes": 678,
+    "comments": [
+      {
+        "Id": 5,
+        "postId": 5,
+        "userId": 6,
+        "text": "You're such an inspiration! Time to hit the gym 🔥",
+        "timestamp": "2024-01-13T09:45:00Z",
+        "parentId": null
+      },
+      {
+        "Id": 6,
+        "postId": 5,
+        "userId": 7,
+        "text": "Motivation level: 100! Thanks for the push!",
+        "timestamp": "2024-01-13T10:20:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-13T07:15:00Z",
+    "filter": "cool"
+  },
+  {
+    "Id": 6,
+    "userId": 6,
+    "imageUrl": "https://picsum.photos/400/400?random=106",
+    "caption": "Forest bathing session 🌲 In the woods, we return to reason and faith. Nature has a way of healing the soul that nothing else can match. Take time to disconnect and reconnect. #nature #forest #mindfulness",
+    "likes": 445,
+    "comments": [],
+    "timestamp": "2024-01-12T15:40:00Z",
+    "filter": "none"
+  },
+  {
+    "Id": 7,
+    "userId": 7,
+    "imageUrl": "https://picsum.photos/400/400?random=107",
+    "caption": "Studio session vibes 🎵 Working on some new melodies tonight. Music is the universal language of mankind. Every note tells a story, every rhythm moves the soul. #music #recording #newmusic",
+    "likes": 312,
+    "comments": [
+      {
+        "Id": 7,
+        "postId": 7,
+        "userId": 8,
+        "text": "Can't wait to hear what you're working on! 🎶",
+        "timestamp": "2024-01-12T22:30:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-12T21:15:00Z",
+    "filter": "dramatic"
+  },
+  {
+    "Id": 8,
+    "userId": 8,
+    "imageUrl": "https://picsum.photos/400/400?random=108",
+    "caption": "Spring collection preview 👗 Fashion is architecture: it is a matter of proportions. These pieces represent freedom, confidence, and the power of self-expression. What's your style story? #fashion #style #springcollection",
+    "likes": 789,
+    "comments": [
+      {
+        "Id": 8,
+        "postId": 8,
+        "userId": 9,
+        "text": "Absolutely gorgeous collection! Love the color palette 💖",
+        "timestamp": "2024-01-11T16:45:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-11T14:20:00Z",
+    "filter": "bright"
+  },
+  {
+    "Id": 9,
+    "userId": 9,
+    "imageUrl": "https://picsum.photos/400/400?random=109",
+    "caption": "Late night coding session 💻 Building something amazing! The best error message is the one that never shows up. Every bug fixed, every feature added brings us closer to innovation. #coding #tech #innovation",
+    "likes": 234,
+    "comments": [],
+    "timestamp": "2024-01-11T01:30:00Z",
+    "filter": "cool"
+  },
+  {
+    "Id": 10,
+    "userId": 10,
+    "imageUrl": "https://picsum.photos/400/400?random=110",
+    "caption": "New canvas, new dreams 🖌️ Art enables us to find ourselves and lose ourselves at the same time. Every brushstroke is a whisper from the soul. What stories do you see in the colors? #art #painting #creativity",
+    "likes": 467,
+    "comments": [
+      {
+        "Id": 9,
+        "postId": 10,
+        "userId": 1,
+        "text": "Your artistic vision is incredible! The colors are so vibrant ✨",
+        "timestamp": "2024-01-10T19:20:00Z",
+        "parentId": null
+      },
+      {
+        "Id": 10,
+        "postId": 10,
+        "userId": 2,
+        "text": "This speaks to my soul! Beautiful work 🎨",
+        "timestamp": "2024-01-10T20:15:00Z",
+        "parentId": null
+      }
+    ],
+    "timestamp": "2024-01-10T17:45:00Z",
+    "filter": "vintage"
+  }
+]
