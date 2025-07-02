@@ -5,6 +5,7 @@ import PostGrid from '@/components/organisms/PostGrid'
 import Loading from '@/components/ui/Loading'
 import Error from '@/components/ui/Error'
 import Empty from '@/components/ui/Empty'
+import ApperIcon from '@/components/ApperIcon'
 import { getCurrentUser } from '@/services/api/userService'
 import { getPostsByUser } from '@/services/api/postService'
 
@@ -63,10 +64,27 @@ const ProfilePage = () => {
     )
   }
 
-  return (
+return (
     <div className="min-h-screen bg-background">
       <div className="max-w-md mx-auto">
         <ProfileHeader user={user} isOwnProfile={true} />
+        
+        {/* My Story Section */}
+        <div className="bg-white border-b border-gray-200 px-4 py-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-medium text-gray-900">My Story</h3>
+              <p className="text-sm text-gray-500">Share what's happening</p>
+            </div>
+            <button
+              onClick={() => navigate('/my-story')}
+              className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-full text-sm font-medium hover:shadow-lg transition-all"
+            >
+              <ApperIcon name="Plus" size={16} />
+              <span>Add Story</span>
+            </button>
+          </div>
+        </div>
         
         <div className="px-4 py-6">
           {posts.length > 0 ? (
@@ -82,7 +100,7 @@ const ProfilePage = () => {
           )}
         </div>
       </div>
-    </div>
+</div>
   )
 }
 

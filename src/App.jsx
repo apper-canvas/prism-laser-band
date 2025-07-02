@@ -7,17 +7,18 @@ import CreatePage from '@/components/pages/CreatePage'
 import ProfilePage from '@/components/pages/ProfilePage'
 import PostDetailPage from '@/components/pages/PostDetailPage'
 import UserProfilePage from '@/components/pages/UserProfilePage'
-
+import MyStoryPage from '@/components/pages/MyStoryPage'
 function App() {
   return (
     <Router>
       <div className="App">
-        <Routes>
+<Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<FeedPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/create" element={<CreatePage />} />
             <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/my-story" element={<MyStoryPage />} />
             <Route path="/post/:id" element={<PostDetailPage />} />
             <Route path="/user/:username" element={<UserProfilePage />} />
           </Route>
